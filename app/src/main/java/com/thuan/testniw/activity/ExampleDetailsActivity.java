@@ -17,9 +17,10 @@ public class ExampleDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         itemDetailsBinding = DataBindingUtil.setContentView(this, R.layout.item_details);
         doInitialization();
-        
+       
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        
     }
 
     private void doInitialization() {
